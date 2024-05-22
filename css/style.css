@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://firebasestorage.googleapis.com/v0/b/popcat-609d3.appspot.com/o/Cat_at_night-Cute_little_kitty_cat_living_wallpaper_1920x1200.jpg?alt=media&token=0454bb3d-fa84-4059-8fe9-45d222bbb24c") center #000;
+  background: url("https://firebasestorage.googleapis.com/v0/b/popcat-609d3.appspot.com/o/Cat_at_night-Cute_little_kitty_cat_living_wallpaper_1920x1200.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
