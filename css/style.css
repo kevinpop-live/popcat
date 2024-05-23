@@ -608,13 +608,14 @@ body {
 .article-title {
   text-decoration: none;
   font-size: 2em;
-  font-weight: bold;
-  color: #555;
+  font-weight:bolder;
+  color:black;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
   transition: color 0.2s;
+
 }
 
 a.article-title:hover {
@@ -810,7 +811,8 @@ a.article-title:hover {
 }
 
 .article-footer a:hover {
-  color: #555;
+  color: dodgerblue;
+  font-weight: bolder;
 }
 
 .article-tag-list-item {
@@ -1586,7 +1588,7 @@ pre .javascript .function {
 }
 
 .button{
-  display: block;
+ 
   width: 130px;
   height: 30px;
   background-color: gold;
@@ -1597,4 +1599,15 @@ pre .javascript .function {
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 16px;
+}
+.button a{
+  text-decoration: none;
+   display: block;
+}
+
+.button a:hover{
+  background-color: #f99157;
+  border-bottom: #008abe;
+  text-decoration: none;
+  
 }
